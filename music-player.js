@@ -1,16 +1,12 @@
-/* Music Player - YouTube API */
-
 const VIDEO_ID = 'XgMsLuislvw';
 let player = null;
 let playerReady = false;
 
-// Validasi element YouTube player ada
 const youtubePlayerElement = document.getElementById('youtube-player');
 if (!youtubePlayerElement) {
   console.error('[MusicPlayer] ERROR: YouTube player container not found!');
 }
 
-// Validasi button musik ada
 const musicPlayerBtn = document.getElementById('musicPlayerBtn');
 if (!musicPlayerBtn) {
   console.error('[MusicPlayer] ERROR: Music player button not found!');
